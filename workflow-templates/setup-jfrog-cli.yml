@@ -1,6 +1,0 @@
-- uses: jfrog/setup-jfrog-cli@v2
-  env:
-    JF_ENV_1: ${{ secrets.JF_SECRET_ENV_1 }}
-- run: |
-    # Ping the server
-    jf rt ping
