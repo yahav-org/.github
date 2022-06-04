@@ -1,6 +1,6 @@
 {
     "name": "Frogbot",
-    "description": "Frogbot starter workflow.",
+    "description": "Scans your Git repository and automatically opens pull requests for upgrading vulnerable dependencies to a version with a fix.",
     "icon": "jfrog-icon.svg",
     "categories": ["Maven POM", "Go", "JavaScript", "TypeScript"],
     "filePatterns": ["pom.xml", "go.mod", "package.json"]
