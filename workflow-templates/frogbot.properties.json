@@ -1,4 +1,7 @@
 {
     "name": "Frogbot",
-    "description": "Frogbot starter workflow."
+    "description": "Frogbot starter workflow.",
+    "icon": "jfrog-icon.svg",
+    "categories": ["Maven POM", "Go", "JavaScript", "TypeScript"],
+    "filePatterns": ["pom.xml", "go.mod", "package.json"]
 }
