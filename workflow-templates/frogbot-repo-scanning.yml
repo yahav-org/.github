@@ -1,4 +1,4 @@
-name: "Frogbot Fix"
+name: "Frogbot Repo Scanning"
 on:
   push:
     # Creating fix pull requests will be triggered by any push to one of the these branches.
@@ -13,10 +13,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      # Install prerequisites according to your package manager. Examples:
+      # Install the tools used to download the project dependencies. Examples:
       # - uses: actions/setup-go@v2
       # - uses: actions/setup-java@v3
       # - uses: actions/setup-node@v3
+      # ...
 
       - uses: jfrog/frogbot@v2
         env:
